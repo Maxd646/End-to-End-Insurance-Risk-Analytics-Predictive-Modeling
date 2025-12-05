@@ -7,7 +7,9 @@ engineering, EDA, model building, reporting, and CI setup.
 ## Project Structure
 
     end-to-end/
-    │
+    .github\workflows
+    │   |──ci,yml
+    |   |──codeql.yml
     ├── data/
     │   ├── raw/               # Original data (untouched)
     │   └── processed/         # Cleaned, transformed data
@@ -25,18 +27,9 @@ engineering, EDA, model building, reporting, and CI setup.
     │   │   └── train_model.py
     │   └── utils/
     │       └── data_loader.py
-    │
-    ├── reports/
-    │   ├── interim_report.md
-    │   └── final_report.md
-    │
-    ├── ci/
-    │   └── python-ci.yml      # CI pipeline (GitHub Actions)
-    │
     ├── .gitignore
     ├── requirements.txt
     ├── README.md
-    └── setup.py (optional)
 
 ## How to Run This Project
 
