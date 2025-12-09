@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: python:3.14-slim # prebuilt Python 3.14 container
+      image: python:3.13.1-slim #
 
     steps:
       - name: Checkout repository

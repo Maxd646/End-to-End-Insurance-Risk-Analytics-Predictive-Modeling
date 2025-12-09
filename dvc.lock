@@ -1,4 +1,0 @@
-schema: '2.0'
-stages:
-  track_raw_data:
-    cmd: dvc add data/processed/insurance_cleaned.csv
